@@ -6,9 +6,9 @@
 **Target Video Duration**: 8 to 10 minutes  
 **Format**: High-Definition (1080p, 60fps), split-screen (Presenter Camera + Terminal/Browser)  
 **Team Roster**:
-- **Member 1 (Speaker 1)**: System Architecture, Decomposition & API Gateway
-- **Member 2 (Speaker 2)**: Next.js 14 Frontend Cockpit, Multi-Domain User Journey & Saga Workflow
-- **Member 3 (Speaker 3)**: Terminal Verification of Core Challenges (Concurrency, Idempotency, AMQP, Saga Rollback) & Wrap-Up
+- **Rajan (Speaker 1)**: System Architecture, Decomposition & API Gateway
+- **Manan (Speaker 2)**: Next.js 14 Frontend Cockpit, Multi-Domain User Journey & Saga Workflow
+- **Rahul (Speaker 3)**: Terminal Verification of Core Challenges (Concurrency, Idempotency, AMQP, Saga Rollback) & Wrap-Up
 
 ---
 
