@@ -556,7 +556,7 @@ Assignment 2 will deploy this exact SeatLock architecture onto **Kubernetes / Mi
 | :--- | :--- | :--- | :--- | :--- |
 | **Member 1 (Lead)** | `2025TM93213` | System Architecture, Gateway, Booking Service, Saga Orchestration, Report Lead | `gateway`, `services/booking`, Docker Compose, Next.js Frontend | Challenge 3C Saga runner, OpenAPI specs, Report authoring |
 | **Member 2** | `2025TM93214` | Inventory Concurrency Engine, Ticketing Fulfillment, PostgreSQL Databases | `services/inventory`, `services/ticketing`, SQL migrations | Challenge 1 Concurrency runner, `BR1` & `BR2` unit test suites |
-| **Member 3** | `2025TM93215` | Payment Idempotency Engine, RabbitMQ AMQP Broker, Notification Consumer | `services/payment`, `services/notification`, MongoDB schemas | Challenge 2 Idempotency runner, Challenge 3D event broker runner |
+| **Manan Shori (Member 3)** | `2025TM93143` | Payment Idempotency Engine, RabbitMQ AMQP Broker, Notification Consumer | `services/payment`, `services/notification`, MongoDB schemas | Challenge 2 Idempotency runner, Challenge 3D event broker runner |
 
 ### 10.3 Individual Reflections
 

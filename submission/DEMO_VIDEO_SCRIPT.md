@@ -36,7 +36,7 @@
 > **Member 1 (Speech)**:  
 > *"Hello respected evaluators and professors. Welcome to our presentation and live demonstration of **SeatLock**, our distributed, high-concurrency reservation platform engineered for Scalable Services (SEZG583) Assignment 1.  
 > 
-> My name is [Member 1 Name], joined by my teammates [Member 2 Name] and [Member 3 Name].  
+> My name is [Member 1 Name], joined by my teammates [Member 2 Name] and Manan Shori.
 > 
 > High-velocity booking systems—specifically **IRCTC 10:00 AM Railway Tatkal**, **stadium concert flash-sales**, and **intercity sleeper buses**—operate under severe burst contention. When bookings open, thousands of users compete for a tiny handful of seats within milliseconds. Traditional monolithic architectures collapse under these conditions due to overbooking anomalies, double charges on network timeouts, and ghost locks when partial failures occur.  
 > 
@@ -93,7 +93,7 @@
 > 
 > Look at the **Live AMQP Event Stream** at the bottom of our dashboard. Within 4 milliseconds, our Notification Service consumed the message and dispatched simulated SMS and Email confirmations.  
 > 
-> Furthermore, our dashboard contains interactive labs for all three engineering challenges. To see rigorous algorithmic proof and edge-case stress tests, let us hand over to [Member 3] in the terminal."*
+> Furthermore, our dashboard contains interactive labs for all three engineering challenges. To see rigorous algorithmic proof and edge-case stress tests, let us hand over to Manan Shori in the terminal."*
 
 ---
 
@@ -101,8 +101,8 @@
 **Speaker**: Member 3  
 **Visual**: Full-screen split terminal. Top pane: live execution of `python scripts/challenge1_concurrency.py`. Bottom pane: `docker compose logs -f inventory-service`.
 
-> **Member 3 (Speech)**:  
-> *"Thank you, [Member 2]. I am [Member 3], and I will now prove our system's correctness and resilience under adversarial conditions directly in the terminal.  
+> **Member 3 (Speech)**:
+> *"Thank you, [Member 2]. I am Manan Shori, and I will now prove our system's correctness and resilience under adversarial conditions directly in the terminal.
 > 
 > We begin with **Challenge 1: Concurrency and Race Condition Elimination**.  
 > The business rule `BR1` mandates that available inventory must never drop below zero, and `BR2` dictates that when $M$ concurrent threads contest $N$ seats ($M > N$), exactly $N$ succeed and $M-N$ are rejected with HTTP 409 Conflict.  

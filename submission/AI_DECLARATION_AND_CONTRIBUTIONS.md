@@ -47,7 +47,7 @@ The project was executed by a collaborative team of 3 M.Tech Software Systems ca
 | :--- | :--- | :--- | :---: |
 | **Member 1 (Lead)**<br>Name: [Student 1 Name]<br>BITS ID: [202XTMXXXXX]<br>Email: [f202Xxxxx@pilani.bits-pilani.ac.in] | **System Architect & Gateway Lead**<br>- API Gateway (:8000)<br>- Redis Rate Limiter<br>- Inventory Service (:8002)<br>- Docker Compose Infrastructure | - Authored multi-container `docker-compose.yml` and PostgreSQL init scripts.<br>- Built Express API Gateway with Redis token-bucket rate limiting.<br>- Designed Inventory Service atomic decrement query enforcing `BR1` & `BR2`.<br>- Coordinated team repository, branching strategy, and documentation structure. | **33.3%** |
 | **Member 2**<br>Name: [Student 2 Name]<br>BITS ID: [202XTMXXXXX]<br>Email: [f202Xxxxx@pilani.bits-pilani.ac.in] | **Frontend & Distributed Saga Lead**<br>- Next.js 14 Cockpit (:3000)<br>- Booking Service (:8001)<br>- Ticketing Service (:8005)<br>- Video Production (UI Walkthrough) | - Developed Next.js 14 App Router frontend with real-time telemetry and coach seat selector.<br>- Implemented Distributed Saga Orchestrator (`src/saga.py`) enforcing `BR4`.<br>- Built Ticketing Service with deterministic berth allocation and Indian Railways PNR generator.<br>- Scripted and recorded UI demonstration in demo video. | **33.3%** |
-| **Member 3**<br>Name: [Student 3 Name]<br>BITS ID: [202XTMXXXXX]<br>Email: [f202Xxxxx@pilani.bits-pilani.ac.in] | **Idempotency, AMQP & Reliability Lead**<br>- Payment Service (:8003)<br>- Notification Service (:8004)<br>- RabbitMQ Broker Integration<br>- Challenge Benchmark Execution | - Implemented Payment Service with Two-Phase cryptographic SHA-256 idempotency ledger (`BR3`).<br>- Built RabbitMQ AMQP event consumer with MongoDB deduplication store.<br>- Authored and executed automated benchmark scripts (`challenge1`, `challenge2`, `challenge3D`, `challenge3C`).<br>- Recorded terminal challenge verification for demonstration video. | **33.3%** |
+| **Member 3**<br>Name: Manan Shori<br>BITS ID: 2025TM93143<br>Email: 2025TM93143@wilp.bits-pilani.ac.in | **Idempotency, AMQP & Reliability Lead**<br>- Payment Service (:8003)<br>- Notification Service (:8004)<br>- RabbitMQ Broker Integration<br>- Challenge Benchmark Execution | - Implemented Payment Service with Two-Phase cryptographic SHA-256 idempotency ledger (`BR3`).<br>- Built RabbitMQ AMQP event consumer with MongoDB deduplication store.<br>- Authored and executed automated benchmark scripts (`challenge1`, `challenge2`, `challenge3D`, `challenge3C`).<br>- Recorded terminal challenge verification for demonstration video. | **33.3%** |
 
 ### 2.2 Shared Team Responsibilities
 - **Weekly Architecture Syncs**: Bi-weekly collaborative discussions on service boundaries, schema design, and error handling contracts.
@@ -90,7 +90,7 @@ We hereby certify that:
 
 **Signed on behalf of the team**:
 
-1. **Student 1 (Lead)**: _______________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date: 2026-10-21  
-2. **Student 2**: _______________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date: 2026-10-21  
-3. **Student 3**: _______________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date: 2026-10-21  
+1. **Student 1 (Lead)**: _______________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date: 2026-10-21
+2. **Student 2**: _______________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date: 2026-10-21
+3. **Student 3 (Manan Shori - 2025TM93143)**: _______________________ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date: 2026-10-21
 
